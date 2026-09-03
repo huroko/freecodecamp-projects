@@ -1,0 +1,144 @@
+@media (max-width: 1023px){
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+  }
+
+  #navbar > header {
+    padding: 10px;
+  }
+
+  #header {
+    padding:  40px;
+  }
+
+  #nav-list{
+    background-color: #fff;
+    position: fixed;
+    top: 40px;
+    right: -100%;
+    width: 100%;
+  }
+
+  .menu-checkbox {
+   position: absolute;
+   opacity: 0;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+  }
+
+  .menu-button {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .hamburger-line {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    margin: 5px 0;
+  }
+
+  .menu-checkbox:checked ~ #nav-list {
+    right: 0;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 15px;
+    text-decoration:none;
+    color: #333;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  #header {
+    border-bottom: 1px solid black;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #navbar {
+    width: 30%;
+    border-right: 1px solid black;
+    overflow-y: scroll;
+  }
+  
+  .menu-button, .menu-checkbox {
+    display: none;
+  }
+
+  #nav-list {
+    margin: 0;
+    padding-left: 0;
+  }
+
+  #nav-list li {
+   border: 1px solid black;
+   font-size: 1.2em;
+   padding: 5px;
+  }
+
+  #navbar > header {
+    display: fixed;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  #main-doc {
+    width: 70%;
+    overflow-y: scroll;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50px;
+    z-index: 999;
+    background-color: #fff;
+  }
+}
+
+#nav-list{
+ list-style: none;
+}
+
+#nav-list li:hover {
+    cursor: pointer;
+}
+
+#main-doc {
+  margin: 10px;
+}
+
+header {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
