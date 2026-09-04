@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+    <h1><img src="https://huroko.github.io/freecodecamp-projects/product-landing-page/icons/landing-logo.png"  alt="landing-logo" id="header-img" />
+    Original Kendamas</h1>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#works">How It works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="landing-page">
+    <div class="form">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form action="https://www.freecodecamp.org/email-submit" method="post" id="form">
+        <input type="email" name="email" size="30" id="email" required placeholder="Enter your email address" />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </div>
+    <div id="features">
+      <div class="feature">
+        <img src="https://huroko.github.io/freecodecamp-projects/product-landing-page/icons/fire-icon.png" width="35px" alt="premium material icon" />
+        <div class="feature-detail">
+        <h3>Premium Materials</h3>
+        <p>Our Kendamas use the shiniest Japanese cypress which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="https://huroko.github.io/freecodecamp-projects/product-landing-page/icons/truck-icon.png" width="50px" alt="fast shipping icon" />
+        <div class="feature-detail">
+        <h3>Fast Shipping</h3>
+        <p>We make sure you receive your kendama as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+      <div class="feature">
+       <img src="https://huroko.github.io/freecodecamp-projects/product-landing-page/icons/maintenance-icon.png" width="50px" alt="quality assurance icon" />
+               <div class="feature-detail">
+        <h3>Quality Assurance</h3>
+        <p>For every purchase you make, we will ensure there are no damages or faults.</p>
+        </div>
+      </div>
+    </div>
+    <div id="works">
+      <video id ="video" width="500" height="300" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
+    </div>
+    <div id="pricing">
+      <div class="product">
+        <h3>Kendama</h3>
+        <span class="product-price">3000 JPY</span>
+        <p>The coating is strong and it can handle throwing techniques for a long time. It has good grip, making stationary moves easier to do and rotations easier to see.</p>
+        <input type="submit" value="select" class="select" id="select-product1" />
+      </div>
+      <div class="product">
+        <h3>Premium Kendama</h3>
+        <span class="product-price">10000 JPY</span>
+        <p>The moist texture of top-quality cypress is beautiful, and this new model is designed to help make every move easier to execute.</p>
+        <input type="submit" value="select" class="select" id="select-product2" />
+      </div>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="">Privacy</a></li>
+      <li><a href="">Temrs</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    <h4>Copyright 2026, Original Kendamas</h4>
+  </footer>
+</body>
+
+</html>

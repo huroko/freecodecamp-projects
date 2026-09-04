@@ -1,0 +1,151 @@
+html {
+  margin: 0;
+  paddint: 0;
+}
+
+body {
+  font-family: 'Baskervville' sans-serif;
+  background-color: #eee;
+}
+
+#header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: #eee;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+#header-img {
+  width: 30px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  border: 1px 
+  }
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.landing-page {
+  width: 100%;
+}
+
+.form {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#submit {
+  border: none;
+  background-color: yellow;
+  font-weight: bold;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  place-items: center;
+}
+
+.feature img {
+  grid-column: 1/ 2;
+  grid-row: 1 / 2;
+}
+
+.feature-detail {
+  grid-column: 2/ span 4;
+  grid-row: 1 /  2;
+}
+
+#works {
+  text-align: center;
+}
+
+#pricing {
+  margin: 30px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+.product {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.product h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.product p {
+  padding: 0 20px;
+}
+
+.select {
+  border: none;
+  background-color: yellow;
+  padding: 10px 30px;
+  margin: 5px auto;
+  font-size: 1.2rem;
+}
+
+.select:hover {
+  background-color: orange;
+  color: white;
+}
+
+footer {
+  background-color: lightgray;
+  text-align: right;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
