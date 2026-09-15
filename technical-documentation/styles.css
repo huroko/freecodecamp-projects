@@ -1,8 +1,13 @@
-* {
+*, ::before, ::after {
   box-sizing: border-box;
 }
 
 @media (max-width: 1023px){
+  #main-doc {
+    width: 100vw;
+    padding-top: 50px;
+  }
+
   #navbar {
     position: fixed;
     top: 0;
@@ -19,7 +24,7 @@
   #nav-list{
     background-color: #fff;
     position: fixed;
-    top: 40px;
+    top: 35px;
     right: -100%;
     width: 100%;
   }
@@ -36,7 +41,7 @@
     cursor: pointer;
     display: block;
     padding: 10px;
-    width: 30px;
+    width: 50px;
     position: absolute;
     right: 0;
     top: 0;
