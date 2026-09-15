@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @media (max-width: 1023px){
   #navbar {
     position: fixed;
@@ -10,10 +14,6 @@
 
   #navbar > header {
     padding: 10px;
-  }
-
-  #header {
-    padding:  40px;
   }
 
   #nav-list{
@@ -64,10 +64,6 @@
 }
 
 @media screen and (min-width: 1023px) {
-  #header {
-    border-bottom: 1px solid black;
-  }
-
   main {
     display: flex;
     justify-content: space-between;
@@ -75,8 +71,10 @@
 
   #navbar {
     width: 30%;
+    margin: 0;
+    padding: 0;
     border-right: 1px solid black;
-    overflow-y: scroll;
+    background-color: white;
   }
   
   .menu-button, .menu-checkbox {
@@ -85,19 +83,33 @@
 
   #nav-list {
     margin: 0;
-    padding-left: 0;
+    padding: 0;
+    margin-top: 40px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    overflow-y: scroll;
   }
 
   #nav-list li {
    border: 1px solid black;
    font-size: 1.2em;
-   padding: 5px;
+   margin: 0;
+   padding: 10px;
   }
 
   #navbar > header {
-    display: fixed;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     font-size: 1.4em;
     text-align: center;
+    background-color: white;
+  //  border: 1px solid black;
+    display: block;
+    width: 30%;
+    height: 40px;
   }
 
   #main-doc {
@@ -141,4 +153,12 @@ h1 {
   text-align: center;
   font-size: 1.2rem;
   font-weight: normal;
+}
+
+pre {
+  padding: 0.2em 0.3em;
+  margin: 0 0.2em;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 0.9em;
 }
