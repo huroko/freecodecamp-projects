@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#welcome-section">About</a></li>
+        <li><a class="nav-link" href="#project-section">Work</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>      
+    </nav>
+    <div id="welcome-section">
+      <h1>Hey I am huroko</h1>
+      <p>a web developer</p>
+    </div>
+    <div id="project-section">
+      <h2>These are some of my projects</h2>
+      <div class="projects-container">
+        <div class="project-tile">
+          <a href="https://huroko.github.io/freecodecamp-projects/tribute-page/" alt="Tribute Page"><img src="https://huroko.github.io/freecodecamp-projects/portfolio/images/tribute-page-toppage.png" alt="tribute page image" /></a>
+          <div class="project-title">
+            <h3><a href="https://huroko.github.io/freecodecamp-projects/tribute-page/" alt="Tribute Page">Tribute Page</a></h3>
+          </div>
+        </div>
+        <div class="project-tile">
+          <a href="https://huroko.github.io/freecodecamp-projects/product-landing-page/" alt="Product Landing Page"><img src="https://huroko.github.io/freecodecamp-projects/portfolio/images/product-landing-toppage.png" alt="product landing page toppage image" /></a>
+          <div class="project-title">
+            <h3><a href="https://huroko.github.io/freecodecamp-projects/product-landing-page/">Product Landing Page</a></h3>
+          </div>
+        </div>
+        <div class="project-tile">
+          <a href="https://huroko.github.io/freecodecamp-projects/technical-documentation/" alt="Technical Documentation"><img src="https://huroko.github.io/freecodecamp-projects/portfolio/images/technical-documentation-toppage.png" alt="technical documentation toppage image" /></a>
+          <div class="project-title">
+            <h3><a href="https://huroko.github.io/freecodecamp-projects/technical-documentation/" alt="Technical Documentation">Technical Documentation</a></h3>
+          </div>
+        </div>
+        <div class="project-tile">
+          <a href="https://huroko.github.io/freecodecamp-projects/survey-form/" alt="Survey Form"><img src="https://huroko.github.io/freecodecamp-projects/portfolio/images/survey-form-toppage.png" alt="survey form image" /></a>
+          <div class="project-title">
+            <h3><a href="https://huroko.github.io/freecodecamp-projects/survey-form/" alt="Survey Form">Survey Form</a></h3>
+          </div>
+        </div>
+      </div>
+      <input type="button" value="Show All..." id="show-button" onClick="location.href='https://huroko.github.io/freecodecamp-projects/'" /> 
+    </div>
+    <div id="contact">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/freecodecamp/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/freecodecamp">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <hr>
+      <footer>
+        <div class="footer-left">
+          <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+        </div>
+        <p>© Created for <a href="https://github.com/huroko/" alt="huroko" id="profile-link" target="_blank"></alt>huroko</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
